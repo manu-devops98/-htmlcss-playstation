@@ -119,3 +119,8 @@ header {
 .banner-game-content p {
     font-size: 1.2em;
 }
+
+/* SECTION NEW-GAMES  */
+.new-games .container-fluid {
+    background-color: #222222;
+}
