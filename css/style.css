@@ -11,7 +11,7 @@ body {
 }
 
 .header-top img {
-    width: 8%;
+    width: 7%;
     position: absolute;
     top: 0.8em;
     right: 0.8em;
@@ -19,18 +19,22 @@ body {
 
 
 .header-bottom {
-    height: 70px;
+    height: 80px;
+    /* background-color: red; */
+}
+
+.header-bottom .play-logo {
+    margin: 0 0.8em;
 }
 
 .header-bottom li a {
-    font-size: 1.2em;
-    margin-right: 1.5em;
+    font-size: 1.3em;
 }
 
 .header-bottom span .fa-search {
     vertical-align: middle;
-    padding-top: 0.2em;
-    margin-left: 1em;
+    padding: 0.3em;
+    margin-left: 0.5em;
     font-size: 1.5em;
 }
 
@@ -40,4 +44,9 @@ body {
 
 .header-bottom .link-drop {
     font-size: 0.9em;
+}
+
+.nav-link .chevron {
+    width: 8%;
+    margin-left: 5px;
 }
