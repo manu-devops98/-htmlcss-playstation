@@ -2,7 +2,19 @@ body {
     font-family: Helvetica, Arial, sans-serif;
 }
 
+:root {
+    --header-height: 130px;
+}
+
+.my_container {
+    width: 95%;
+    margin: 0 auto;
+}
 /* HEADER  */
+
+header {
+    height: var(--header-height);
+}
 
 .header-top {
     background-color: black;
@@ -20,7 +32,7 @@ body {
 
 .header-bottom {
     height: 80px;
-    /* background-color: red; */
+    background-color: white;
 }
 
 .header-bottom .play-logo {
@@ -49,4 +61,31 @@ body {
 .nav-link .chevron {
     width: 8%;
     margin-left: 5px;
+}
+
+/* JUMBOTRON  */
+.jumbotron {
+    padding-top: 8em;
+}
+.jumbotron .container-fluid {
+    background-image: url('../img/jumbo-bg.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.jumbotron .jumbo-content {
+    padding-top: 70%;
+    padding-bottom: 10%;
+    color: white;
+}
+
+.card-img img {
+    border-radius: 5%;
+}
+
+.card-img.active {
+    border: 1px solid blue;
+    border-radius: 0.6em;
+    padding: 0.2em;
 }
