@@ -107,3 +107,15 @@ header {
         width: 50%;
     }
 }
+
+/* SECTION BANNER-GAME  */
+.banner-game .container-fluid {
+    background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.banner-game-content p {
+    font-size: 1.2em;
+}
