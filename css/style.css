@@ -1,3 +1,43 @@
 body {
     font-family: Helvetica, Arial, sans-serif;
 }
+
+/* HEADER  */
+
+.header-top {
+    background-color: black;
+    height: 50px;
+    position: relative;
+}
+
+.header-top img {
+    width: 8%;
+    position: absolute;
+    top: 0.8em;
+    right: 0.8em;
+}
+
+
+.header-bottom {
+    height: 70px;
+}
+
+.header-bottom li a {
+    font-size: 1.2em;
+    margin-right: 1.5em;
+}
+
+.header-bottom span .fa-search {
+    vertical-align: middle;
+    padding-top: 0.2em;
+    margin-left: 1em;
+    font-size: 1.5em;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: black;
+}
+
+.header-bottom .link-drop {
+    font-size: 0.9em;
+}
