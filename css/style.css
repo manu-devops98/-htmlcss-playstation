@@ -141,3 +141,16 @@ header {
 .plus-img img {
     width: 100%;
 }
+
+/* PLAYSTATION NOW  */
+.ps-now .container-fluid {
+    background-color: #181E45;
+}
+
+.ps-now .ps-now-logo {
+    width: 60%;
+}
+
+.ps-now .ps-now-img img {
+    width: 100%;
+}
