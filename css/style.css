@@ -124,3 +124,20 @@ header {
 .new-games .container-fluid {
     background-color: #222222;
 }
+
+/* SECTION PLUS  */
+.plus .container-fluid {
+    background-color: #C5C4C3;
+}
+
+.plus-logo {
+    width: 60%;
+}
+
+.plus-content button {
+    color: blue;
+}
+
+.plus-img img {
+    width: 100%;
+}
