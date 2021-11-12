@@ -2,20 +2,11 @@ body {
     font-family: Helvetica, Arial, sans-serif;
 }
 
-:root {
-    --header-height: 130px;
-}
-
 .my_container {
     width: 95%;
     margin: 0 auto;
 }
 /* HEADER  */
-
-header {
-    height: var(--header-height);
-}
-
 .header-top {
     background-color: black;
     height: 50px;
@@ -25,12 +16,11 @@ header {
 .header-top img {
     width: 7%;
     position: absolute;
-    top: 0.8em;
+    top: 1.1em;
     right: 0.8em;
 }
 
 .header-bottom {
-    height: 80px;
     background-color: white;
 }
 
@@ -173,7 +163,7 @@ header {
 .jumbotron .info-button:active {
     border: 2px solid crimson;
 }
-
+/* JUMBO CARDS  */
 .card-img img {
     border-radius: 5%;
 }
