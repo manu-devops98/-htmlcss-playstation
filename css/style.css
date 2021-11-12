@@ -154,3 +154,26 @@ header {
 .ps-now .ps-now-img img {
     width: 100%;
 }
+
+/* FOOTER  */
+footer {
+    background-color: #194CA9;
+    color: white;
+}
+
+footer .footer-play-logo {
+    width: 15%;
+}
+
+footer .sony-footer-logo {
+    width: 20%;
+}
+
+footer .footer-list li{
+    margin-bottom: 0.5em;
+}
+
+footer .footer-list li a {
+    color: white;
+    text-decoration: none;
+}
