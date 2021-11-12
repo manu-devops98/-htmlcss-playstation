@@ -100,6 +100,21 @@ header {
 .header-bottom .lens-menu {
     font-size: 1.5em;
     color: black;
+    margin-left: 0.5em;
+}
+
+.header-bottom .nav-item.menu-button {
+    border: 1px solid transparent;
+    border-radius: 50px;
+    padding: 0.2em;
+    
+}
+
+.header-bottom .nav-item.menu-button:hover,
+.header-bottom .nav-item.menu-button:active,
+.header-bottom .nav-item.menu-button:focus {
+    opacity: 0.7;
+    border: 1px solid grey;
 }
 
 @media screen and (max-width: 991px) {
@@ -107,12 +122,12 @@ header {
         align-items: flex-start!important;
     }
 
-    .navbar-collapse .nav-item {
-        width: 100%;
+    .navbar-collapse .nav-item.menu-button {
+        width: 35%;
     }
 
     .navbar-collapse .nav-item .btn {
-        width: 35%;
+        width: 100%;
         margin: 0;
     }
 
@@ -147,8 +162,25 @@ header {
     color: white;
 }
 
+.jumbotron .info-button {
+    border: 2px solid transparent;
+    border-radius: 50px;
+    padding: 0.2em;  
+}
+
+.jumbotron .info-button:hover,
+.jumbotron .info-button:focus,
+.jumbotron .info-button:active {
+    border: 2px solid crimson;
+}
+
 .card-img img {
     border-radius: 5%;
+}
+
+.jumbotron .card-img:hover {
+    transition: 0.3s;
+    transform: translate(0,-10%);
 }
 
 .card-img.active {
@@ -158,8 +190,17 @@ header {
 }
 
 /* SECTION PLAYSTATION  */
-.playstation .card-img img {
+.playstation .card-img {
     width: 100%;
+    opacity: 0.5;
+}
+
+.playstation .card-img:hover {
+    opacity: 1;
+}
+
+.playstation .card-img.active img {
+    opacity: 1;
 }
 
 .playstation .card-img.active {
@@ -167,6 +208,19 @@ header {
     border-bottom: 2px solid blue;
     border-radius: 0;
     padding-bottom: 1.5em;
+    opacity: 1;
+}
+
+.playstation .info-button {
+    border: 2px solid transparent;
+    border-radius: 50px;
+    padding: 0.2em;  
+}
+
+.playstation .info-button:hover,
+.playstation .info-button:focus,
+.playstation .info-button:active {
+    border: 2px solid blue;
 }
 
 @media screen and (min-width: 768px) {
@@ -187,11 +241,34 @@ header {
     font-size: 1.2em;
 }
 
+.banner-game .info-button {
+    border: 2px solid transparent;
+    border-radius: 50px;
+    padding: 0.2em;  
+}
+
+.banner-game .info-button:hover,
+.banner-game .info-button:focus,
+.banner-game .info-button:active {
+    border: 2px solid crimson;
+}
 /* SECTION NEW-GAMES  */
 .new-games .container-fluid {
     background-color: #222222;
 }
 
+/* Playstation 4  */
+.old-playstation .info-button {
+    border: 2px solid transparent;
+    border-radius: 50px;
+    padding: 0.2em;  
+}
+
+.old-playstation .info-button:hover,
+.old-playstation .info-button:focus,
+.old-playstation .info-button:active {
+    border: 2px solid blue;
+}
 /* SECTION PLUS  */
 .plus .container-fluid {
     background-color: #C5C4C3;
@@ -209,6 +286,17 @@ header {
     width: 100%;
 }
 
+.plus .info-button {
+    border: 2px solid transparent;
+    border-radius: 50px;
+    padding: 0.2em;  
+}
+
+.plus .info-button:hover,
+.plus .info-button:focus,
+.plus .info-button:active {
+    border: 2px solid grey;
+}
 /* PLAYSTATION NOW  */
 .ps-now .container-fluid {
     background-color: #181E45;
@@ -222,6 +310,17 @@ header {
     width: 100%;
 }
 
+.ps-now .info-button {
+    border: 2px solid transparent;
+    border-radius: 50px;
+    padding: 0.2em;  
+}
+
+.ps-now .info-button:hover,
+.ps-now .info-button:focus,
+.ps-now .info-button:active {
+    border: 2px solid #5597D5;
+}
 /* FOOTER  */
 footer {
     background-color: #194CA9;
