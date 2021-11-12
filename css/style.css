@@ -181,8 +181,11 @@ body {
 
 /* SECTION PLAYSTATION  */
 .playstation .card-img {
-    width: 100%;
     opacity: 0.5;
+}
+
+.playstation .card-img img {
+    width: 100%;
 }
 
 .playstation .card-img:hover {
