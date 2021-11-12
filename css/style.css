@@ -121,6 +121,11 @@ body {
         margin: 0;
     }
 
+    .header-bottom .nav-item.search {
+        display: block;
+        width: 98%;
+    }
+
     .header-bottom .lens-menu {
         width: 100%;
         border: 1px solid black;
