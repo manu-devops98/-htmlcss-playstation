@@ -1,0 +1,328 @@
+body {
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+.my_container {
+    width: 95%;
+    margin: 0 auto;
+}
+
+
+.font-color {
+    color: #0072CE;
+}
+/* HEADER  */
+
+.header-top {
+    background-color: black;
+    height: 30px;
+    position: relative;
+}
+
+.header-top img {
+    width: 5%;
+    position: absolute;
+    top: 0.6em;
+    right: 0.8em;
+}
+
+.header-bottom {
+    background-color: white;
+}
+
+.header-bottom.accessories-nav {
+    background-color: white;
+}
+
+.header-bottom .logo-nav-bottom {
+    width: 65%;
+}
+
+.header-bottom .navbar-expand-lg {
+    height: 50px;
+}
+
+.header-bottom .navbar-collapse {
+    background-color: white;
+    width: 100%;
+}
+
+.header-bottom .navbar-light .navbar-nav .nav-link {
+    font-size: 0.7em;
+}
+
+.header-bottom.accessories-nav .navbar-light .navbar-nav .nav-link {
+    font-size: 1em;
+    color: black;
+    padding: 0.65em 1em;
+}
+
+.header-bottom.accessories-nav .navbar-light .navbar-nav .nav-link.active {
+    color: #0072CE;
+    border-bottom: 5px solid #0072CE;
+}
+
+.header-bottom.accessories-nav .dropdown-toggle::after {
+    content: '';
+}
+
+.header-bottom .navbar-light .navbar-nav .nav-link:focus,
+.header-bottom .navbar-light .navbar-nav .nav-link:hover,
+.header-bottom .navbar-light .navbar-nav .nav-link:active {
+    color: #0072CE;
+}
+
+.dropdown-toggle::after {
+    font-family: 'Font Awesome 6 Free';
+    content: '\f078';
+    border: 0;
+    color: lightgrey;
+    vertical-align: middle;
+    font-weight: 900;
+    font-size: 0.7em;
+}
+
+.dropdown-toggle.show::after {
+    font-family: 'Font Awesome 6 Free';
+    content: '\f077';
+    color: blue;
+}
+
+.header-bottom .dropdown-menu {
+    border-top: none;
+}
+
+.header-bottom .dropdown-menu .list-inline-item img {
+    width: 5em;
+}
+
+.header-bottom .dropdown-item:hover {
+    background-color: white;
+    box-shadow: 10px 5px 10px #888888;
+    border-radius: 10px;
+}
+
+.header-bottom .dropdown-item-bottom::before {
+    font-family: 'Font Awesome 6 Free';
+    content: '\f111';
+    vertical-align: middle;
+    font-size: 5px;
+    color: blue;
+    margin-right: 1em;
+    
+}
+
+.header-bottom .dropdown-item-bottom {
+    text-decoration: none;
+    color: black;
+}
+
+.header-bottom .dropdown-item-bottom:hover {
+    color: blue;
+} 
+
+.header-bottom .lens-menu {
+    font-size: 1.5em;
+    color: black;
+    margin-left: 0.5em;
+}
+
+.header-bottom .nav-item.menu-button {
+    border: 1px solid transparent;
+    border-radius: 50px;
+    padding: 0.2em;
+    
+}
+
+.header-bottom .nav-item.menu-button:hover,
+.header-bottom .nav-item.menu-button:active,
+.header-bottom .nav-item.menu-button:focus {
+    opacity: 0.7;
+    border: 1px solid grey;
+}
+
+@media screen and (max-width: 991px) {
+    .header-bottom .navbar-nav:last-child {
+        align-items: flex-start!important;
+    }
+
+    .navbar-collapse .nav-item.menu-button {
+        width: 35%;
+    }
+
+    .navbar-collapse .nav-item .btn {
+        width: 100%;
+        margin: 0;
+    }
+
+    .header-bottom .nav-item.search {
+        display: block;
+        width: 98%;
+    }
+
+    .header-bottom .lens-menu {
+        width: 100%;
+        border: 1px solid black;
+        padding: 0.5em;
+        margin-top: 1em;
+    }
+
+    .header-bottom .nav-item input {
+        width: 80%;
+        border: none;
+    }
+    
+    .header-bottom.accessories-nav {
+        display: none;
+    }
+}
+
+/* JUMBOTRON  */
+.jumbotron {
+    padding-top: 8em;
+    
+}
+.jumbotron .container-fluid {
+    background-image: url('../img/jumbo-bonus.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 700px;
+}
+
+.jumbotron .jumbo-content {
+    background-color: rgba(229, 230, 232, 0.6);
+    margin: 10em 0;
+    padding: 2em;
+    color: black;
+}
+
+.jumbo-content h1 {
+    font-size: 3em;
+}
+
+.jumbotron .info-button {
+    border: 2px solid transparent;
+    border-radius: 50px;
+    padding: 0.2em;  
+}
+
+.jumbotron .info-button:hover,
+.jumbotron .info-button:focus,
+.jumbotron .info-button:active {
+    border: 2px solid crimson;
+}
+
+/* CONTROLLER DUAL SENSE  */
+.controller .info-button {
+    border: 2px solid transparent;
+    border-radius: 50px;
+    padding: 0.2em;  
+}
+
+.controller .info-button:hover,
+.controller .info-button:focus,
+.controller .info-button:active {
+    border: 2px solid blue;
+}
+
+.controller .multiplayer a {
+    text-decoration: none;
+}
+
+.controller .multiplayer a:hover { 
+   text-decoration: underline;
+}
+
+/* CHARGING CONTROLLER  */
+.charging-controller {
+    background-color: #F5F5F5;
+}
+
+.charging-controller .info-button {
+    border: 2px solid transparent;
+    border-radius: 50px;
+    padding: 0.2em;  
+}
+
+.charging-controller .info-button:hover,
+.charging-controller .info-button:focus,
+.charging-controller .info-button:active {
+    border: 2px solid blue;
+}
+
+/* HEADPHONES  */
+.headphone .info-button {
+    border: 2px solid transparent;
+    border-radius: 50px;
+    padding: 0.2em;  
+}
+
+.headphone .info-button:hover,
+.headphone .info-button:focus,
+.headphone .info-button:active {
+    border: 2px solid blue;
+}
+
+/* MEDIA CONTROL  */
+.media-control {
+    background-color: #F5F5F5;
+}
+
+.media-control .info-button {
+    border: 2px solid transparent;
+    border-radius: 50px;
+    padding: 0.2em;  
+}
+
+.media-control .info-button:hover,
+.media-control .info-button:focus,
+.media-control .info-button:active {
+    border: 2px solid blue;
+}
+
+/* TELECAMERA  */
+.camera .info-button {
+    border: 2px solid transparent;
+    border-radius: 50px;
+    padding: 0.2em;  
+}
+
+.camera .info-button:hover,
+.camera .info-button:focus,
+.camera .info-button:active {
+    border: 2px solid blue;
+}
+
+.camera .camera-accessories {
+    margin-top: 6em;
+}
+
+/* MORE INFO  */
+.more-info {
+    background-color: #F5F5F5;
+}
+
+/* FOOTER  */
+footer {
+    background-color: #194CA9;
+    color: white;
+}
+
+footer .footer-play-logo {
+    width: 15%;
+}
+
+footer .sony-footer-logo {
+    width: 20%;
+}
+
+footer .footer-list li{
+    margin-bottom: 0.8em;
+    font-size: 0.8em;
+}
+
+footer .footer-list li a {
+    color: white;
+    text-decoration: none;
+}
